@@ -1,2 +1,110 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
+
+.footer {
+
+    display: block;
+    
+    .contact {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        background-color: v.$cian-dark;
+        padding: 2rem 15rem 0 15rem;
+        height: 15rem;
+
+        a {
+
+            @include m.button-main(v.$beige, v.$orange-light, v.$cian-dark);
+
+        }
+
+        .networks {
+
+            margin-left: 9rem;
+
+            a {
+
+                background-color: transparent;
+                border-bottom: 0;
+                padding: 0;
+                margin-left: 2rem;
+                
+            }
+
+            .icon {
+
+                font-size: 3rem;
+                color: v.$beige;
+
+                &:hover {
+
+                    color: v.$orange-light;
+
+                }
+
+                &:active {
+
+                    color: v.$white;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .navigation-footer {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        background-color: v.$cian-dark;
+        padding: 0 20rem;
+        height: 3rem;
+
+        a {
+
+            font-size: 1.3rem;
+            padding: .1rem .5rem;
+            margin: 0 15rem;
+            color: v.$beige;
+            border-bottom: .1rem solid transparent;
+
+            &:hover {
+
+                border-bottom: .1rem solid v.$orange-dark;
+
+            }
+
+        }
+
+    }
+
+    .text-footer {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        text-align: center;
+        letter-spacing: .3rem;
+        background-color: v.$black;
+        
+        p {
+
+            font-size: 1.2rem;
+            color: v.$beige;
+
+        }
+
+    }
+
+}
