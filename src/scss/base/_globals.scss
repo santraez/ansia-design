@@ -22,6 +22,8 @@ body {
     font-family: v.$generic-font;
     font-size: 1rem;
     background-color: v.$beige;
+    display: block;
+    color: v.$cian-dark;
 
 }
 
@@ -34,6 +36,14 @@ body {
 
 }
 
+.title {
+
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: v.$gold-dark;
+    
+}
+
 p {
 
     font-size: 2rem;
@@ -43,12 +53,6 @@ p {
 a {
 
     text-decoration: none;
-
-}
-
-input {
-
-    display: none;
 
 }
 

@@ -1,6 +1,12 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+.header-up {
+
+    border-bottom: 1px solid v.$gray-dark;
+
+}
+
 .header {
 
     display: flex;
@@ -47,13 +53,13 @@
 
         }
 
-        .title {
+        .title-nav {
 
             padding: 0 2rem 0 1rem;
             margin-right: 3rem;
             font-family: v.$main-font;
             font-size: 2.5rem;
-            color: v.$orange-light;
+            color: v.$gold-dark;
             background-color: transparent;
             border-bottom: 0rem;
 

@@ -34,11 +34,11 @@
 </head>
 <body>
 
-    <header>
+    <header class="header-up">
 
         <div class="container header">
 
-            <div class="navigation">
+            <nav class="navigation">
                 
                 <a href="/" class="logo">
 
@@ -51,12 +51,12 @@
                     </picture>
 
                 </a>
-                <a href="/" class="title"><span>ansia</span>Design</a>
+                <a href="/" class="title-nav"><span>ansia</span>Design</a>
                 <a href="/about.php">About</a>
                 <a href="/collections.php">Collections</a>
                 <a href="/store.php">Store</a>
 
-            </div>
+            </nav>
 
             <div class="access">
 
