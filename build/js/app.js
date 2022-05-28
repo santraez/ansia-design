@@ -1,2 +1,2 @@
-function startApp(){}document.addEventListener("DOMContentLoaded",(function(){startApp()}));
+function startApp(){faqButton()}function faqButton(){document.querySelector("#c1").addEventListener("click",showAnswer)}function showAnswer(){const e=document.querySelector("#a1"),t=document.querySelector("#b1a"),n=document.querySelector("#b1b"),o=document.querySelector("#i1a"),s=document.querySelector("#i1b");e.classList.toggle("display-none"),t.classList.toggle("display-none"),n.classList.toggle("display-none"),o.classList.toggle("display-none"),s.classList.toggle("display-none")}document.addEventListener("DOMContentLoaded",(function(){startApp()}));
 //# sourceMappingURL=app.js.map

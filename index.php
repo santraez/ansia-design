@@ -7,7 +7,7 @@ addTemplate('header');
 
 <main class="container cover">
 
-    <article class="text-cover">
+    <article class="cover__text">
 
         <div>
 
@@ -21,16 +21,16 @@ addTemplate('header');
 
         </div>
 
-        <div class="border-input">
+        <div class="input-cover">
 
-            <fieldset class="input-cover">
+            <fieldset class="input-cover__fieldset">
 
                 <legend>&nbsp;your purchase code&nbsp;</legend>
                 
                 <input 
 
                     type="text"
-                    class="cover-text"
+                    class="input-cover__input"
                     placeholder="ID -"
                     value=""
 
@@ -38,12 +38,12 @@ addTemplate('header');
             
             </fieldset>
 
-            <div class="border-button">
+            <div class="input-cover__button">
 
                 <input
                 
                     type="submit"
-                    class="cover-button"
+                    class="input-cover__submit"
                     value="Claim"
 
                 >
@@ -55,7 +55,7 @@ addTemplate('header');
 
     </article>
 
-    <div class="img-cover">
+    <div class="cover__image">
 
         <picture>
 

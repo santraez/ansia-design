@@ -5,7 +5,7 @@
 
     display: block;
     
-    .contact {
+    .footer__contact {
 
         display: flex;
         flex-direction: row;
@@ -22,7 +22,7 @@
 
         }
 
-        .networks {
+        .footer__contact--networks {
 
             margin-left: 9rem;
 
@@ -35,7 +35,7 @@
                 
             }
 
-            .icon {
+            .icon-footer {
 
                 font-size: 3rem;
                 color: v.$beige;
@@ -58,7 +58,7 @@
 
     }
 
-    .navigation-footer {
+    .footer__nav {
 
         display: flex;
         flex-direction: row;
@@ -87,7 +87,7 @@
 
     }
 
-    .text-footer {
+    .footer__text {
 
         display: flex;
         flex-direction: row;

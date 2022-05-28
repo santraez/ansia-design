@@ -9,7 +9,7 @@
 
     padding: 7rem 0;
 
-    .text-cover {
+    .cover__text {
 
         display: flex;
         flex-direction: column;
@@ -23,7 +23,7 @@
 
         }  
         
-        .border-input {
+        .input-cover {
 
             display: grid;
             grid-template-columns: 80% 20%;
@@ -32,12 +32,12 @@
             width: 70%;
             height: 5rem;
             
-            .input-cover{
+            .input-cover__fieldset{
 
                 border-radius: .7rem;
                 border: 1px solid v.$gold-medium;
                
-                .cover-text {
+                .input-cover__input {
 
                     font-size: 1.7rem;
                     color: v.$dark-light;
@@ -50,17 +50,14 @@
 
             }
             
-            .border-button {
+            .input-cover__button {
 
                 display: flex;
-                flex-direction: column;
-                justify-content: end;
-                align-items: center;
-
+                flex-direction: column-reverse;
                 height: 5rem;
                 
 
-                .cover-button {
+                .input-cover__submit {
 
                     border: none;
                     width: 95%;
@@ -89,7 +86,7 @@
 
     }
 
-    .img-cover {
+    .cover__image {
 
         display: flex;
         flex-direction: column;

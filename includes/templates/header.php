@@ -34,13 +34,13 @@
 </head>
 <body>
 
-    <header class="header-up">
+    <header class="header">
 
-        <div class="container header">
+        <div class="container header__nav">
 
-            <nav class="navigation">
+            <nav class="header__nav--navigation">
                 
-                <a href="/" class="logo">
+                <a href="/" class="logo-nav">
 
                     <picture>
 
@@ -58,10 +58,10 @@
 
             </nav>
 
-            <div class="access">
+            <div class="header__nav--access">
 
                 <a href="/login.php">Log in</a>
-                <a href="/signup.php" class="signup">Sign up</a>
+                <a href="/signup.php" class="signup-nav">Sign up</a>
 
             </div>
 

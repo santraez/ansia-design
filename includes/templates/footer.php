@@ -1,29 +1,29 @@
     <footer class="footer">
 
-        <div class="contact">
+        <div class="footer__contact">
 
             <a href="/contact.php">Contact</a>
 
-            <div class="networks">
+            <div class="footer__contact--networks">
 
                 <a href="#">
-                    <i class="icon icon-instagram"></i>
+                    <i class="icon-footer icon-instagram"></i>
                 </a>
                 <a href="#">
-                    <i class="icon icon-pinterest-squared"></i>
+                    <i class="icon-footer icon-pinterest-squared"></i>
                 </a>
                 <a href="#">
-                    <i class="icon icon-twitter-squared"></i>
+                    <i class="icon-footer icon-twitter-squared"></i>
                 </a>
                 <a href="#">
-                    <i class="icon icon-facebook-squared"></i>
+                    <i class="icon-footer icon-facebook-squared"></i>
                 </a>
 
             </div>
                 
         </div>
 
-        <div class="navigation-footer">
+        <div class="footer__nav">
 
             <a href="/about.php">About</a>
             <a href="/collections.php">Collections</a>
@@ -31,7 +31,7 @@
 
         </div>
 
-        <div class="text-footer">
+        <div class="footer__text">
 
             <p>
 

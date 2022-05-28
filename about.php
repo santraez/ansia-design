@@ -8,6 +8,7 @@
 
 <?php
 
+    addTemplate('faqs');
     addTemplate('footer');
 
 ?>

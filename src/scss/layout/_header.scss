@@ -1,113 +1,115 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
-.header-up {
+.header {
 
     border-bottom: 1px solid v.$gray-dark;
 
-}
-
-.header {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-    padding: 0 3.5rem 0 2rem;
-    height: 6rem;
-    background-color: v.$beige;
-
-    a {
-
-        @include m.button-main(transparent, v.$gray-dark, v.$cian-dark);
-
-    }
-    
-    .navigation {
+    .header__nav {
 
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-
-        a {
-
-            margin-right: 2rem;
-
-        }
-
-        .logo {
         
-            background-color: transparent;
-            border-bottom: 0rem;
-            margin: 0;
-            padding-right: 0;
-
-            img {
-                
-                width: 3rem;
-                height: auto;
-
-            }
-
-        }
-
-        .title-nav {
-
-            padding: 0 2rem 0 1rem;
-            margin-right: 3rem;
-            font-family: v.$main-font;
-            font-size: 2.5rem;
-            color: v.$gold-dark;
-            background-color: transparent;
-            border-bottom: 0rem;
-
-            span {
-
-                color: v.$cian-dark;
-
-            }
-
-        }
-    }
-
-    .access {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
+        padding: 0 3.5rem 0 2rem;
+        height: 6rem;
+        background-color: v.$beige;
+    
         a {
-
-            margin-left: 2rem;
-
+    
+            @include m.button-main(transparent, v.$gray-dark, v.$cian-dark);
+    
         }
-
-        .signup {
-
-            padding: .4rem 1.5rem .3rem 1.5rem;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: v.$beige;
-            border-radius: .3rem;
-            background-color: v.$orange-light;
-
-            &:hover {
-
-                background-color: v.$orange-dark;
-
+        
+        .header__nav--navigation {
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            a {
+    
+                margin-right: 2rem;
+    
             }
-
-            &:active {
-
+    
+            .logo-nav {
+            
+                background-color: transparent;
+                border-bottom: 0rem;
+                margin: 0;
+                padding-right: 0;
+    
+                img {
+                    
+                    width: 3rem;
+                    height: auto;
+    
+                }
+    
+            }
+    
+            .title-nav {
+    
+                padding: 0 2rem 0 1rem;
+                margin-right: 3rem;
+                font-family: v.$main-font;
+                font-size: 2.5rem;
+                color: v.$gold-dark;
+                background-color: transparent;
+                border-bottom: 0rem;
+    
+                span {
+    
+                    color: v.$cian-dark;
+    
+                }
+    
+            }
+            
+        }
+    
+        .header__nav--access {
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            a {
+    
+                margin-left: 2rem;
+    
+            }
+    
+            .signup-nav {
+    
+                padding: .4rem 1.5rem .3rem 1.5rem;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: v.$beige;
+                border-radius: .3rem;
                 background-color: v.$orange-light;
-
+    
+                &:hover {
+    
+                    background-color: v.$orange-dark;
+    
+                }
+    
+                &:active {
+    
+                    background-color: v.$orange-light;
+    
+                }
+    
             }
-
+    
         }
-
+    
     }
 
 }
+
