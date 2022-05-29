@@ -2,7 +2,7 @@
 
         <div class="footer__contact">
 
-            <a href="/contact.php">Contact</a>
+            <a href="/contact.php">Contact Us</a>
 
             <div class="footer__contact--networks">
 

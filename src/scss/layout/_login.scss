@@ -1,0 +1,105 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.access {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: calc(100vh - 13.1rem);
+
+    .access__title {
+
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+
+    }
+    
+    .access__input {
+
+        display: flex;
+        flex-direction: column;
+
+        padding: 2rem;
+        border-radius: 2rem;
+        width: 30%;
+        background-color: v.$gold-down;
+
+        .access-label {
+
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin: 2rem 0 .3rem 0;
+
+        }
+
+        .access-input {
+
+            font-size: 1.5rem;
+            border: 1px solid v.$cian-dark;
+            border-radius: .7rem;
+            padding: .5rem .7rem;
+
+        }
+
+        .access-password {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+
+            .access-forgot {
+
+                font-size: 1.3rem;
+                color: v.$orange-light;
+
+            }
+
+        }
+        
+        .access-submit {
+
+            padding: 1rem 0;
+            margin: 3.5rem 0 2rem 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: v.$beige;
+            border: 0;
+            border-radius: .7rem;
+            background-color: v.$orange-light;
+            cursor: pointer;
+
+            &:hover {
+
+                background-color: v.$orange-dark;
+
+            }
+
+            &:active {
+
+                background-color: v.$orange-light;
+
+            }
+
+        }
+
+    }
+
+    .access__signup {
+
+        font-size: 1.4rem;
+        margin: 3rem auto 0 auto;
+
+        a {
+
+            color: v.$orange-light;
+
+        }
+        
+    }
+
+}

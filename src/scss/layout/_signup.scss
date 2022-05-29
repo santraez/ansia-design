@@ -1,0 +1,125 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.register {
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center;
+
+    width: 95%;
+    height: calc(100vh - 13.1rem);
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 0;  
+
+
+    .register__info {
+
+        display: block;
+
+        width: 80%;
+
+        h3 {
+
+            font-weight: 400;
+            color: v.$gold-dark;
+            margin: 1.7rem 0;
+
+        }
+
+        p {
+
+            font-size: 1.7rem;
+            line-height: 3rem;
+
+        }
+
+    }
+
+    .register__signup {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .register__signup--title {
+
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+
+        }
+        
+        .register__signup--input {
+
+            display: flex;
+            flex-direction: column;
+
+            padding: 2rem;
+            border-radius: 2rem;
+            width: 90%;
+            background-color: v.$gold-down;
+
+            .register-label {
+
+                font-size: 1.7rem;
+                font-weight: 700;
+                margin: 2rem 0 .3rem 0;
+
+            }
+
+            .register-input {
+
+                font-size: 1.5rem;
+                border: 1px solid v.$cian-dark;
+                border-radius: .7rem;
+                padding: .5rem .7rem;
+
+            }
+            
+            .register-submit {
+    
+                padding: 1rem 0;
+                margin: 3.5rem 0 2rem 0;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: v.$beige;
+                border: 0;
+                border-radius: .7rem;
+                background-color: v.$orange-light;
+                cursor: pointer;
+    
+                &:hover {
+    
+                    background-color: v.$orange-dark;
+    
+                }
+    
+                &:active {
+    
+                    background-color: v.$orange-light;
+    
+                }
+    
+            }
+
+        }
+
+        .register__signup--login {
+
+            font-size: 1.4rem;
+            margin: 3rem auto 0 auto;
+
+            a {
+
+                color: v.$orange-light;
+
+            }
+            
+        }
+
+    }
+
+}

@@ -1,0 +1,41 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.footer {
+    
+    .footer__contact--access {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        background-color: v.$cian-dark;
+        padding: 0 15rem;
+        height: 5rem;
+
+        a {
+
+            padding: .5rem 2rem;
+            font-size: 1.5rem;
+            color: v.$cian-dark;
+            border-radius: .3rem;
+            background-color: v.$beige;
+
+            &:hover {
+
+                background-color: v.$gold-dark;
+
+            }
+
+            &:active {
+
+                background-color: v.$gold-light;
+
+            }
+
+        }
+
+    }
+
+}

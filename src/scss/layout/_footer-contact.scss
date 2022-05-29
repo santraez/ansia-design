@@ -1,0 +1,38 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.footer {
+
+    .footer__contact--networks {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: v.$cian-dark;
+        padding: 0;
+        height: 5rem;
+        width: 22%;
+
+        .icon-footer--contact {
+
+            font-size: 3rem;
+            color: v.$beige;
+
+            &:hover {
+
+                color: v.$gold-dark;
+
+            }
+
+            &:active {
+
+                color: v.$gold-light;
+
+            }
+
+        }
+
+    }
+}

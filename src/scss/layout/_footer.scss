@@ -4,6 +4,7 @@
 .footer {
 
     display: block;
+    background-color: v.$cian-dark;
     
     .footer__contact {
 
@@ -18,7 +19,23 @@
 
         a {
 
-            @include m.button-main(v.$beige, v.$orange-light, v.$cian-dark);
+            padding: .5rem 2rem;
+            font-size: 1.5rem;
+            color: v.$cian-dark;
+            border-radius: .3rem;
+            background-color: v.$white;
+
+            &:hover {
+
+                background-color: v.$gold-dark;
+
+            }
+
+            &:active {
+
+                background-color: v.$gold-light;
+
+            }
 
         }
 
@@ -42,13 +59,13 @@
 
                 &:hover {
 
-                    color: v.$orange-light;
+                    color: v.$gold-dark;
 
                 }
 
                 &:active {
 
-                    color: v.$white;
+                    color: v.$gold-light;
 
                 }
 
