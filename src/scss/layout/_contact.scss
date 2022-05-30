@@ -14,7 +14,7 @@
 
         font-size: 2.5rem;
         font-weight: 400;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
     }
     
@@ -26,7 +26,7 @@
         padding: 2rem 4rem;
         border-radius: 2rem;
         width: 55%;
-        background-color: v.$cian-light;
+        background-color: v.$gray-dark;
 
         .contact-us-label {
 
@@ -39,9 +39,19 @@
         .contact-us-input {
 
             font-size: 1.5rem;
-            border: 1px solid v.$cian-dark;
+            border: 1px solid v.$dark-light;
             border-radius: .7rem;
             padding: .5rem .7rem;
+
+        }
+    
+        .contact-us-message {
+
+            resize: none;
+            font-size: 1.5rem;
+            border: 1px solid v.$dark-light;
+            border-radius: .7rem;
+            padding: 1rem .7rem;
 
         }
         
@@ -71,6 +81,32 @@
             }
 
         }
+
+    }
+
+    .contact-us-text1,
+    .contact-us-text2,
+    .contact-us-text3 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .contact-us-text1 {
+
+        margin-bottom: .7rem;
+
+    }
+
+    .contact-us-text2 {
+
+        margin-top: .7rem;
+
+    }
+
+    .contact-us-text3 {
+
+        margin-top: .7rem;
 
     }
 

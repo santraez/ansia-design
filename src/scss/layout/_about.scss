@@ -1,0 +1,33 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.about {
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    margin: 12rem auto;
+
+    .about__image {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            
+            image-rendering: pixelated;
+
+        }
+
+    }
+    .about__text {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+}

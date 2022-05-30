@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet"> 
 	
     <!---icon-->
-	<link rel="icon" type="image/png" href="build/img/thumb/logo.png"/>
+	<link rel="icon" type="image/png" href="/build/img/thumb/logo.png"/>
     
     <!--styles-->
     <link rel="stylesheet" href="/build/css/app.css">
@@ -44,9 +44,9 @@
 
                     <picture>
 
-			            <source srcset="build/img/thumb/logo.avif" type="image/avif">
-			            <source srcset="build/img/thumb/logo.webp" type="image/webp">
-			            <img loading="lazy" width="200" height="300" src="build/img/thumb/logo.jpg" alt="logo">
+			            <source srcset="/build/img/thumb/logo.avif" type="image/avif">
+			            <source srcset="/build/img/thumb/logo.webp" type="image/webp">
+			            <img loading="lazy" width="200" height="300" src="/build/img/thumb/logo.jpg" alt="logo">
                    
                     </picture>
 

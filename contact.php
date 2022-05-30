@@ -14,8 +14,8 @@
 
     </h3>
 
-    <p>
-        We want to hear from you
+    <p class="contact-us-text1">
+        We want to hear from you.
     </p>
     
 
@@ -45,21 +45,21 @@
 
         >
 
-        <label for="descripcion">Message</label>
-        <textarea id="descripcion" name="descripcion"></textarea>
+        <label class="contact-us-label" for="">Message</label>
+        <textarea class="contact-us-message" id="" name="" rows="10"></textarea>
 
         <input 
             
             type="submit"
-            value="Log in"
+            value="Submit"
             class="contact-us-submit"
                 
         >
 
     </div>
 
-    <p>Have any questions or suggestions?</p>
-    <p>Reach out to us ..</p>
+    <p class="contact-us-text2">Have any questions or suggestions?</p>
+    <p class="contact-us-text3">Reach out to us ..</p>
 
 </section>
 

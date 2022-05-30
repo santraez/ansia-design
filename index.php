@@ -59,9 +59,9 @@ addTemplate('header');
 
         <picture>
 
-            <source srcset="build/img/normal/example.avif" type="image/avif">
-            <source srcset="build/img/normal/example.webp" type="image/webp">
-            <img loading="lazy" width="200" height="300" src="build/img/normal/example.jpg" alt="cover image">
+            <source srcset="build/img/thumb/logo.avif" type="image/avif">
+            <source srcset="build/img/thumb/logo.webp" type="image/webp">
+            <img loading="lazy" width="200" height="300" src="build/img/thumb/logo.jpg" alt="cover image">
 
         </picture>
 
