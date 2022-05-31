@@ -9,12 +9,12 @@
 
     background-color: v.$gold-down;
     border-radius: 2rem;
-    margin: 5rem auto;
+    margin: 6.5rem auto 4rem auto;
 
     .collection__profile {
 
         display: grid;
-        grid-template-columns: 35% 65%;
+        grid-template-columns: 40% 60%;
 
         .collection__profile--logo {
 
@@ -28,9 +28,8 @@
                 background-image: url(../img/thumb/logo.png);
                 background-repeat:repeat;
                 border-radius: 50%;
-                width: 10rem;
-                height: 10rem;
-                margin: 5rem;
+                width: 13rem;
+                height: 13rem;
             
             }
 
@@ -38,17 +37,18 @@
 
         .collection__profile--data {
 
-            padding: 3rem 0;
+            padding: 4.5rem 0;
 
             h2 {
 
-                font-size: 3rem;
+                font-size: 2rem;
+                margin-bottom: 1rem;
 
             }
 
             p {
 
-                font-size: 1rem;
+                font-size: 1.5rem;
 
             }
 
@@ -60,14 +60,15 @@
 
         display: block;
 
-        background-color: v.$cian-light;
+        background-color: v.$beige;
         border-radius: 2rem;
-        margin: 2.5rem 5rem 2.5rem 0;
+        margin: 2.5rem 5.5rem 2.5rem 0;
 
         .collection__nfts--title {
 
-            font-size: 2.5rem;
+            font-size: 2.3rem;
             margin: 2rem 0 2rem 2.5rem;
+            color: v.$gold-dark;
 
         }
 
@@ -78,7 +79,7 @@
             justify-content: space-between;
             align-items: center;
 
-            margin: 3rem 4rem;
+            margin: 3rem 4.5rem;
 
             .collection-category {
 
@@ -89,7 +90,8 @@
 
                 p {
 
-                    font-size: 1rem;
+                    font-size: 1.1rem;
+                    font-weight: 700;
 
                 }
 
@@ -103,7 +105,7 @@
 
                     p {
 
-                        font-size: 1rem;
+                        font-size: 1.2rem;
 
                     }
 
@@ -113,6 +115,29 @@
 
         }
 
+    }
+
+}
+
+.show-collection {
+
+    border-top: 1px solid v.$gold-light;
+    padding-top: 3rem;
+
+    .show-collection__menu {
+        display: flex;
+        flex-direction: column;
+
+        .show-collection-label {
+
+            font-size: 1.5rem;
+            margin-bottom: .5rem;
+
+        }
+        .show-collection-input {
+            border: 1px solid v.$gold-light;
+            border-radius: 2rem;
+        }
     }
 
 }

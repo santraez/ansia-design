@@ -3,6 +3,7 @@
     include '../includes/templates/header.php'
 
 ?>
+
 <section class="container collection">
 
     <div class="collection__profile">
@@ -16,7 +17,7 @@
         <div class="collection__profile--data">
 
             <h2>user name</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloremque quod officiis! Sunt ipsum eligendi consequatur commodi velit voluptatem, sapiente corporis quidem magni debitis, amet quia quaerat recusandae omnis a!</p>
+            <p> NFTs amount</p>
 
         </div>
 
@@ -103,18 +104,20 @@
 
     <div class="show-collection__menu">
 
-        <label class="show-collection-label" for=""></label>
+        <p class="show-collection-label">Collections</p>
         
-        <input 
+        <select name="vendedor" value="<?php echo $vendedorId; ?>">
 
-            type="text" 
-            name=""
-            id=""
-            class="show-collection-input"
+                <option value="">--Seleccione--</option>
+                
+                <option value=""> 3</option>
 
-        >
+
+            </select>
 
     </div>
+
+    <?php include '../includes/templates/collection-menu.php'; ?>
 
     <div class="show-collection__nft">
 

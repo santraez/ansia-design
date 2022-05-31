@@ -28,7 +28,7 @@
 
         </h3>
 
-        <div class="register__signup--input">
+        <form class="register__signup--input" method="post" action="">
 
             <label for="" class="register-label">Display name</label>
             <input
@@ -86,7 +86,7 @@
                 
             >
 
-        </div>
+        </form>
 
         <p class="register__signup--login">
 

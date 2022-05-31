@@ -18,8 +18,7 @@
         We want to hear from you.
     </p>
     
-
-    <div class="contact-us__input">
+    <form class="contact-us__input" method="post" action="">
 
         <label for="" class="contact-us-label">Email</label>
         <input
@@ -56,7 +55,7 @@
                 
         >
 
-    </div>
+    </form>
 
     <p class="contact-us-text2">Have any questions or suggestions?</p>
     <p class="contact-us-text3">Reach out to us ..</p>

@@ -14,7 +14,7 @@
 
     </h3>
 
-    <div class="access__input">
+    <form class="access__input" method="post" action="">
 
         <label for="" class="access-label">Email</label>
         <input
@@ -53,7 +53,7 @@
                 
         >
 
-    </div>
+    </form>
 
     <p class="access__signup">
 
