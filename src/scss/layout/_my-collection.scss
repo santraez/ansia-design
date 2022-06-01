@@ -172,8 +172,29 @@
 
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
-        align-items: center;
+        justify-content:flex-start;
+        align-items: initial;
+
+        .show-all-button {
+
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: v.$white;
+            background-color: v.$cian-medium;
+            border-radius: 2rem;
+            padding: 1.2rem 1.4rem;
+            margin-right: 1.5rem;
+            cursor: pointer;
+            border: 0;
+
+            &:hover {
+                background-color: v.$cian-dark;
+            }
+            &:active {
+                background-color: v.$cian-light
+            }
+
+        }
 
         .claim-button {
 
@@ -183,7 +204,7 @@
             background-color: v.$orange-light;
             border-radius: 2rem;
             padding: 1rem 2.7rem 1rem 2.3rem;
-            margin-left: 2.5rem;
+            margin-left: 1.5rem;
 
             &:hover {
                 background-color: v.$orange-dark;

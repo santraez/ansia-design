@@ -106,6 +106,7 @@
 
     <div class="show-collection__menu">
 
+        <input type="button" class="show-all-button" value="Show all">
         <?php include '../includes/templates/collection-menu.php'; ?>
         <a class="claim-button" href="claim-nft.php">+ Claim a new NFT</a>
     

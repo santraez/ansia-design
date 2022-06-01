@@ -46,14 +46,27 @@ body {
 
 .display-none {
 
-    display: none;
+    display: none !important;
 
 }
 
 .collection-menu-active {
 
     border-radius: 2rem 2rem 0 0;
-    background-color: v.$gold-down;
+    background-color: v.$gold-light;
+    input, i {
+        color: v.$white !important;
+    }
+
+}
+.collection-menu-default {
+
+    border-radius: 2rem;
+    background-color: v.$gold-light;
+    border: 0 !important;
+    input, i {
+        color: v.$white !important;
+    }
 
 }
 
