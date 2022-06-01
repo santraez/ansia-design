@@ -97,9 +97,47 @@
 
                 .collection-category__amount {
 
-                    img {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: baseline;
 
-                        padding: 0;
+                    padding: .5rem 0;
+
+                    .icon-common,
+                    .icon-uncommon,
+                    .icon-rare,
+                    .icon-epic,
+                    .icon-legendary {
+
+                        font-size: 1.5rem;
+                        margin-right: .3rem;
+                        
+                    }
+
+                    .icon-common {
+
+                        color: gray;
+                        
+                    }
+                    .icon-uncommon {
+
+                        color: green;
+
+                    }
+                    .icon-rare {
+
+                        color: blue;
+
+                    }
+                    .icon-epic {
+
+                        color: purple;
+
+                    }
+                    .icon-legendary {
+
+                        color: orange;
 
                     }
 
@@ -121,23 +159,56 @@
 
 .show-collection {
 
-    border-top: 1px solid v.$gold-light;
-    padding-top: 3rem;
+    .show-collection-text {
+
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid v.$gold-light;
+        padding-bottom: .3rem;
+
+    }
 
     .show-collection__menu {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: center;
+
+        .claim-button {
+
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: v.$white;
+            background-color: v.$orange-light;
+            border-radius: 2rem;
+            padding: 1rem 2.7rem 1rem 2.3rem;
+            margin-left: 2.5rem;
+
+            &:hover {
+                background-color: v.$orange-dark;
+            }
+            &:active {
+                background-color: v.$gold-light
+            }
+
+        }
+
+    }
+
+    .show-collection__nft {
+
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        height: 70rem;
 
-        .show-collection-label {
-
-            font-size: 1.5rem;
-            margin-bottom: .5rem;
-
+        p {
+            font-weight: 700;
         }
-        .show-collection-input {
-            border: 1px solid v.$gold-light;
-            border-radius: 2rem;
-        }
+
     }
 
 }

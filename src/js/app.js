@@ -38,6 +38,3 @@ function showAnswer() {
 	iconUp.classList.toggle('display-none');
 
 }
-
-
-

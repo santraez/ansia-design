@@ -50,6 +50,13 @@ body {
 
 }
 
+.collection-menu-active {
+
+    border-radius: 2rem 2rem 0 0;
+    background-color: v.$gold-down;
+
+}
+
 p {
 
     font-size: 2rem;

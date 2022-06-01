@@ -35,7 +35,7 @@
 
                 <div class="collection-category__amount">
 
-                    <img src="" alt="">
+                    <i class="icon-common icon-diamond"></i>
                     <p id="common">0</p>
 
                 </div>
@@ -48,7 +48,7 @@
 
                 <div class="collection-category__amount">
 
-                    <img src="" alt="">
+                    <i class="icon-uncommon icon-diamond"></i>
                     <p id="uncommon">0</p>
 
                 </div>
@@ -61,7 +61,7 @@
 
                 <div class="collection-category__amount">
 
-                    <img src="" alt="">
+                    <i class="icon-rare icon-diamond"></i>
                     <p id="rare">0</p>
 
                 </div>
@@ -74,7 +74,7 @@
 
                 <div class="collection-category__amount">
 
-                    <img src="" alt="">
+                    <i class="icon-epic icon-diamond"></i>
                     <p id="epic">0</p>
 
                 </div>
@@ -87,7 +87,7 @@
 
                 <div class="collection-category__amount">
 
-                    <img src="" alt="">
+                    <i class="icon-legendary icon-diamond"></i>
                     <p id="legendary">0</p>
 
                 </div>
@@ -102,22 +102,14 @@
 
 <section class="container show-collection">
 
+    <p class="show-collection-text">Collections</p>
+
     <div class="show-collection__menu">
 
-        <p class="show-collection-label">Collections</p>
-        
-        <select name="vendedor" value="<?php echo $vendedorId; ?>">
-
-                <option value="">--Seleccione--</option>
-                
-                <option value=""> 3</option>
-
-
-            </select>
-
+        <?php include '../includes/templates/collection-menu.php'; ?>
+        <a class="claim-button" href="claim-nft.php">+ Claim a new NFT</a>
+    
     </div>
-
-    <?php include '../includes/templates/collection-menu.php'; ?>
 
     <div class="show-collection__nft">
 

@@ -1,22 +1,18 @@
-<form method="post" action="">
+<form class="collection-menu" method="post" action="">
+    
+    <div class="collection-menu__front">
 
-    <select
+        <i class="icon-select icon-angle-circled-down"></i>
+        <i class="icon-select display-none icon-angle-circled-up"></i>
 
-        name=""
-        class="collection-menu__select"
-        onchange="if( this.value != 0 ) {
+    </div>
 
-            this.form.submit(); 
+    <div class="collection-menu__back">
 
-        }"
+        <input id="genesis" class="" type="button" value="Genesis">
+        <input id="orion" class="display-none" type="button" value="Orion">
+        <input id="feline" class="display-none" type="button" value="Feline">
 
-    >
-
-        <option value="1">Collection-1</option>
-        <option value="2">Collection-2</option>
-        <option value="3">Collection-3</option>
-
-    </select>
-    <i class="icon-select icon-angle-circled-down"></i>
+    </div>
 
 </form>

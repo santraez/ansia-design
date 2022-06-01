@@ -19,8 +19,8 @@
 </footer><!--footer-->
 
 <!--scripts-->
-<script src="build/js/app.js"></script>
-<script src="build/js/modernizr.js"></script>
+<script src="/build/js/menu-colletion.js"></script>
+<script src="/build/js/modernizr.js"></script>
 
 </body>
 </html>
