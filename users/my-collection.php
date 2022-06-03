@@ -114,7 +114,8 @@
 
     <div class="show-collection__nft">
 
-        <p>You have no NFTs</p>
+        <?php include '../includes/templates/nft-card.php' ?>
+        <!--<p>You have no NFTs</p>-->
 
     </div>
 
