@@ -1,0 +1,188 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.profile {
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    height: calc(100vh - 13.1rem);
+    padding-top: 12rem;
+
+    .profile__user {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+        height: 100%;
+
+        .profile__user--info {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 1.5rem;
+            border-radius: 2rem;
+            background-color: v.$cian-down;
+
+            .profile-logo {
+
+                background-image: url(../img/thumb/logo.png);
+                border-radius: 50%;
+                width: 13rem;
+                height: 13rem;
+                margin: 3rem;
+
+            }
+
+            .profile-name {
+
+                font-size: 2rem;
+                font-weight: 700;
+                color: v.$cian-dark;
+                margin-bottom: 3rem;
+
+            }
+
+        }
+
+        .profile__user--option {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        
+            width: 19rem;
+            padding: 0 rem;
+
+            .profile-cancel {
+
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: v.$white;
+                border-radius: 1rem;
+                background-color: v.$dark-down;
+                padding: .7rem 1.7rem;
+
+            }
+
+            .profile-save {
+
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: v.$white;
+                border-radius: 1rem;
+                border: 0;
+                background-color: v.$cian-medium;
+                padding: .7rem 2.4rem;
+                cursor: pointer;
+
+            }
+
+        }
+
+    }
+
+    .profile__config {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 0 9% 0 4%;
+        height: 100%;
+        width: 100%;
+
+        .profile__config--title {
+
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-left: 2rem;
+
+        }
+
+        .profile__config--form {
+
+            display: flex;
+            flex-direction: column;
+
+            padding: 2rem;
+            width: 90%;
+
+            .profile-label {
+
+                font-size: 1.7rem;
+                font-weight: 700;
+                margin: 1.5rem 0 1rem 0;
+
+            }
+
+            .profile-input {
+
+                font-size: 1.5rem;
+                border: 1px solid v.$cian-dark;
+                border-radius: .7rem;
+                padding: .5rem .7rem;
+                margin-bottom: 1.5rem;
+
+            }
+
+        }
+
+        .profile__config--option {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 4rem;
+
+            width: 100%;
+
+            .profile-close {
+
+                font-size: 1.5rem;
+                color: v.$cian-dark;
+                background-color: transparent;
+                border: 0;
+                cursor: pointer;
+                padding: 0;
+
+            }
+
+            .profile-cancel {
+
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: v.$white;
+                border-radius: 1rem;
+                background-color: v.$dark-down;
+                padding: .7rem 4rem;
+
+            }
+
+            .profile-save {
+
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: v.$white;
+                border-radius: 1rem;
+                border: 0;
+                background-color: v.$cian-medium;
+                padding: .7rem 4.5rem;
+                margin-left: 2rem;
+                cursor: pointer;
+
+            }
+
+        }
+
+    }
+
+}

@@ -65,6 +65,9 @@ function showAll() {
 		barMenuUp.classList.add('display-none');
 		barMenuDown.classList.add('display-none');
 
+		iconUpS.classList.add('display-none');
+		iconDownS.classList.remove('display-none');
+
 	}
 
 }

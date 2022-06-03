@@ -47,6 +47,14 @@
     
         }
 
+        .item-genesis,
+        .item-orion,
+        .item-feline {
+            &:hover {
+                background-color: v.$gold-down;
+            }
+        }
+
         .coll-menu-up {
 
             width: 100%;

@@ -54,8 +54,11 @@ body {
 
     border-radius: 2rem 2rem 0 0;
     background-color: v.$gold-light;
+
     input, i {
+
         color: v.$white !important;
+
     }
 
 }
@@ -64,8 +67,23 @@ body {
     border-radius: 2rem;
     background-color: v.$gold-light;
     border: 0 !important;
+
     input, i {
+
         color: v.$white !important;
+
+    }
+
+    &:hover {
+
+        background-color: v.$gold-medium !important;
+
+    }
+
+    &:active {
+
+        background-color: v.$gold-down !important;
+
     }
 
 }
