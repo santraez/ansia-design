@@ -71,13 +71,53 @@ addTemplate('header');
 
 <section class="container gallery">
 
-    <h3 class="title">Gallery</h3>
+    <h3 class="title gallery__title">Gallery</h3>
 
-    <div>
+    <div class="gallery__container">
 
+        <ul class="gallery-panel">
+
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+            <li class="gallery-nft">
+                <?php include 'includes/templates/nft-card.php' ?>
+            </li>
+
+        </ul>
         
-
     </div>
+
 </section>
 
 <?php
