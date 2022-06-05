@@ -1,0 +1,76 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.gallery__container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 50rem;
+
+    .gallery-panel {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+        animation: change 5s infinite;
+        width: 400%;
+        height: 100%;
+
+        .gallery-nft {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            width: 40rem;
+            list-style: none;
+            
+        }
+
+    }
+
+}
+
+@keyframes change {
+
+0%{margin-left: 0rem;}
+10%{margin-left: 0rem;}
+
+10%{margin-left: -36rem;}
+20%{margin-left: -36rem;}
+
+20%{margin-left: -72rem;}
+30%{margin-left: -72rem;}
+
+30%{margin-left: -108rem;}
+40%{margin-left: -108rem;}
+
+40%{margin-left: -144rem;}
+50%{margin-left: -144rem;}
+
+50%{margin-left: -180rem;}
+60%{margin-left: -180rem;}
+
+60%{margin-left: -216rem;}
+70%{margin-left: -216rem;}
+
+70%{margin-left: -252rem;}
+80%{margin-left: -252rem;}
+
+80%{margin-left: -288rem;}
+90%{margin-left: -288rem;}
+
+90%{margin-left: -324rem;}
+100%{margin-left: -324rem;}
+
+}
