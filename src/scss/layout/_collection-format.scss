@@ -1,0 +1,28 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.collection-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    .collection-format__title {
+        border-bottom: 1px solid v.$gold-dark;
+        margin: 3rem auto;
+        padding: 1rem 0;
+    }
+    .collection-format__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(40, 1fr);
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        .collection-format__grid--unit {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

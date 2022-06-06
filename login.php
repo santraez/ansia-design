@@ -31,7 +31,7 @@
         <div class="access-password">
 
             <label for="" class="access-label">Password</label>
-            <a href="#" class="access-forgot">Forgot password?</a>
+            <a href="users/my-collection.php" class="access-forgot">Forgot password?</a>
 
         </div>
         <input

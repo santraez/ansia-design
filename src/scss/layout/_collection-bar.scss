@@ -1,0 +1,58 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.collection-bar-menu {
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 3rem;
+    width: 100%;
+    height: 17rem;
+    background-color: v.$gold-down;
+    border-radius: 3rem;
+
+    .collection-bar-menu__title {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 5rem;
+
+        &:hover {
+            color: v.$gold-dark;
+        }
+
+    }
+    
+    .collection-bar-menu__image {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .collection-bar-menu__image--n1,
+        .collection-bar-menu__image--n2,
+        .collection-bar-menu__image--n3,
+        .collection-bar-menu__image--n4,
+        .collection-bar-menu__image--n5 {
+
+            border-radius: 50%;
+            background-color: v.$gold-light;
+            width: 9rem;
+            height: 9rem;
+
+            &:hover {
+                width: 10rem;
+                height: 10rem;
+            }
+
+        }
+
+    }
+
+}

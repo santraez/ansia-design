@@ -16,7 +16,7 @@
 
         <div class="collection__profile--data">
 
-            <h2>user name</h2>
+            <a href="profile.php"><h2>user name</h2></a>
             <p> NFTs amount</p>
 
         </div>
