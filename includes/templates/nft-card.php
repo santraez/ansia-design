@@ -8,7 +8,7 @@
 
             <p class="common-card-brand">ansiaDesign</p>
             <p class="common-card-collection">ANDREITA#001</p>
-
+        
         </div>
 
         <div class="common-card__info--logo">

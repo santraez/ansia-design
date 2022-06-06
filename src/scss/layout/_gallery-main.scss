@@ -11,19 +11,39 @@
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    height: 50rem;
+    
+
+    @include m.phone {
+        height: 35rem;
+    }
+    @include m.tablet {
+        height: 35rem;
+    }
+    @include m.desktop {
+        height: 50rem;
+    }
 
     .gallery-panel {
 
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-around;
         align-items: center;
         padding: 0;
         margin: 0 auto;
-        animation: change 5s infinite;
-        width: 400%;
+        animation: change 20s infinite linear;
+        
         height: 100%;
+
+        @include m.phone {
+            width: 1200%;
+        }
+        @include m.tablet {
+            width: 400%;
+        }
+        @include m.desktop {
+            width: 400%;
+        }
 
         .gallery-nft {
 
@@ -32,45 +52,124 @@
             justify-content: center;
             align-items: center;
             
-            width: 40rem;
+            
             list-style: none;
+            position: relative;
+
+            @include m.phone {
+
+                width: 27rem;
+                
+            }
+            @include m.tablet {
+
+                width: 27rem;
+                
+            }
+
+            @include m.desktop {
+
+                width: 40rem;
+
+            }
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
             
         }
 
     }
 
 }
+@include m.phone {
+    @keyframes change {
 
-@keyframes change {
+        0%{
+    
+            margin-left: 0%;
+    
+        }
+    
+        100%{
+    
+            margin-left: -800%;
+    
+        }
+    
+    }
+}
+@include m.tablet {
+    @keyframes change {
 
-0%{margin-left: 0rem;}
-10%{margin-left: 0rem;}
-
-10%{margin-left: -36rem;}
-20%{margin-left: -36rem;}
-
-20%{margin-left: -72rem;}
-30%{margin-left: -72rem;}
-
-30%{margin-left: -108rem;}
-40%{margin-left: -108rem;}
-
-40%{margin-left: -144rem;}
-50%{margin-left: -144rem;}
-
-50%{margin-left: -180rem;}
-60%{margin-left: -180rem;}
-
-60%{margin-left: -216rem;}
-70%{margin-left: -216rem;}
-
-70%{margin-left: -252rem;}
-80%{margin-left: -252rem;}
-
-80%{margin-left: -288rem;}
-90%{margin-left: -288rem;}
-
-90%{margin-left: -324rem;}
-100%{margin-left: -324rem;}
-
+        0%{
+    
+            margin-left: 0%;
+    
+        }
+    
+        10%{
+    
+            margin-left: -30%;
+    
+        }
+    
+        20%{
+    
+            margin-left: -60%;
+    
+        }
+    
+        30%{
+    
+            margin-left: -90%;
+    
+        }
+    
+        40%{
+    
+            margin-left: -120%;
+    
+        }
+    
+        50%{
+    
+            margin-left: -150%;
+    
+        }
+    
+        60%{
+    
+            margin-left: -180%;
+    
+        }
+    
+        70%{
+    
+            margin-left: -210%;
+    
+        }
+    
+        80%{
+    
+            margin-left: -240%;
+    
+        }
+    
+        90%{
+    
+            margin-left: -270%;
+    
+        }
+    
+        100%{
+    
+            margin-left: -300%;
+    
+        }
+    
+    }
 }
